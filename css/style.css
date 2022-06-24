@@ -1,0 +1,460 @@
+/* ___________General_______ */
+
+.main-color {
+    color: #ff305b !important
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.subtitle {
+    max-width: 500px;
+    margin: auto;
+}
+
+
+/* ______Home_______- */
+
+.navbar.logo h1 a {
+    color: #ff305b;
+}
+
+.main-item ul.navbar-nav li.nav-item a.active {
+    color: #ff305b;
+}
+
+.main-item ul.navbar-nav li.nav-item a {
+    color: #000;
+}
+
+.main-item ul.navbar-nav li.nav-item a:hover {
+    color: #ff305b;
+}
+
+#home {
+    height: 100vh;
+    background-image: url(../images/slider-01.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+#home .layer {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+    font-size: 54px;
+    color: #ff305b;
+}
+
+#home h4::after {
+    content: " ";
+    animation: typing 10s infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: " D|";
+    }
+    1% {
+        content: " De|";
+    }
+    2% {
+        content: " Desi|";
+    }
+    3% {
+        content: " Desig|";
+    }
+    4% {
+        content: " Design|";
+    }
+    5% {
+        content: " Designe|";
+    }
+    6% {
+        content: " Designer|";
+    }
+    7% {
+        content: " Designe|";
+    }
+    8% {
+        content: " Design|";
+    }
+    9% {
+        content: " Desig|";
+    }
+    10% {
+        content: " Desi|";
+    }
+    11% {
+        content: " Des|";
+    }
+    12% {
+        content: " De|";
+    }
+    13% {
+        content: " D|";
+    }
+    14% {
+        content: " |";
+    }
+    15% {
+        content: " D|";
+    }
+    16% {
+        content: " De|";
+    }
+    17% {
+        content: " Dev|";
+    }
+    18% {
+        content: " Deve|";
+    }
+    19% {
+        content: " Devel|";
+    }
+    20% {
+        content: " Develo|";
+    }
+    21% {
+        content: " Develop|";
+    }
+    22% {
+        content: " Develope|";
+    }
+    23% {
+        content: " Developer|";
+    }
+    24% {
+        content: " Develope|";
+    }
+    25% {
+        content: " Develop|";
+    }
+    26% {
+        content: " Develo|";
+    }
+    27% {
+        content: " Devel|";
+    }
+    28% {
+        content: " Deve|";
+    }
+    29% {
+        content: " Dev|";
+    }
+    30% {
+        content: " De|";
+    }
+    31% {
+        content: " D|";
+    }
+    32% {
+        content: " |";
+    }
+    /* 100% {
+        content: "|";
+    } */
+}
+
+#home .scroll {
+    width: 25px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: auto;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation-name: scroll;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+
+#home .scroll ::after {
+    content: "";
+    width: 6px;
+    height: 10px;
+    background-color: violet;
+    position: absolute;
+    background-color: white;
+    transform: translateX(-50%);
+}
+
+#home .settings {
+    top: 20%;
+    background-color: #2b2424;
+    padding: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#home .settings i {
+    font-size: 20px;
+}
+
+@keyframes scroll {
+    0%,
+    20%,
+    40%,
+    60%,
+    80%,
+    90%,
+    100% {
+        bottom: 50px;
+    }
+    10% {
+        bottom: 100px;
+    }
+    30% {
+        bottom: 80px;
+    }
+    50% {
+        bottom: 70px;
+    }
+    70% {
+        bottom: 60px;
+    }
+}
+
+
+/* ___________about________*/
+
+#about button {
+    background-color: #ff305b;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#about button:hover {
+    background-color: #EC2403;
+}
+
+
+/* services */
+
+#services {
+    background-color: #f1f1f1;
+}
+
+#services i {
+    font-size: 25px;
+    color: #ff305b;
+}
+
+#services .demo:hover {
+    background-color: white;
+}
+
+#services .line,
+.line3 {
+    background-color: #ff305b;
+    height: 1px;
+    width: 70px;
+    margin: auto;
+}
+
+#services .line2 {
+    background-color: #ff305b;
+    height: 1px;
+    width: 200px;
+    margin: auto;
+    margin: 4px;
+}
+
+#services h4 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+/* portflio */
+
+#portfolio .line,
+.line3 {
+    background-color: #ff305b;
+    height: 1px;
+    width: 70px;
+    margin: auto;
+}
+
+#portfolio .line2 {
+    background-color: #ff305b;
+    height: 1px;
+    width: 200px;
+    margin: auto;
+    margin: 4px;
+}
+
+#portfolio h4 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#portfolio .nav-pills .nav-link.active {
+    background-color: #ff305b;
+}
+
+.nav-pills .nav-link {
+    color: black;
+    border-radius: 30px;
+}
+
+#portfolio .layer {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: .5s;
+}
+
+#portfolio .layer .layer-content {
+    transform: translatey(150%);
+    transition: .5s;
+}
+
+#portfolio .works-item:hover .layer {
+    opacity: 1;
+}
+
+#portfolio .works-item:hover .layer-content {
+    transform: translateY(0);
+}
+
+#portfolio .works-item:hover img {
+    transform: scale(1.1);
+}
+
+#portfolio .works-item img {
+    transition: .5s;
+}
+
+#portfolio .works-item {
+    overflow: hidden;
+}
+
+
+/* -----------------------Testimonial--------- */
+
+#Testimonial .line,
+.line3 {
+    background-color: #ff305b;
+    height: 1px;
+    width: 70px;
+    margin: auto;
+}
+
+#Testimonial .line2 {
+    background-color: #ff305b;
+    height: 1px;
+    width: 200px;
+    margin: auto;
+    margin: 4px;
+}
+
+#Testimonial h4 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#Testimonial .carousel-indicators .active {
+    background-color: #ff305b;
+    opacity: 1;
+    width: 20px;
+}
+
+#Testimonial .carousel-inner {
+    background-color: #f1f1f1;
+}
+
+
+/* --------blog------- */
+
+#blog .line,
+.line3 {
+    background-color: #ff305b;
+    height: 1px;
+    width: 70px;
+    margin: auto;
+}
+
+#blog .line2 {
+    background-color: #ff305b;
+    height: 1px;
+    width: 200px;
+    margin: auto;
+    margin: 4px;
+}
+
+#blog h4 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#blog a {
+    text-decoration: none;
+    color: black;
+}
+
+#blog a:hover {
+    color: #ff305b;
+}
+
+#bolg {
+    background-color: #f1f1f1;
+}
+
+
+/*-------------- contact------------ */
+
+#contact .line,
+.line3 {
+    background-color: #ff305b;
+    height: 1px;
+    width: 70px;
+    margin: auto;
+}
+
+#contact .line2 {
+    background-color: #ff305b;
+    height: 1px;
+    width: 200px;
+    margin: auto;
+    margin: 4px;
+}
+
+#contact h4 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#contact button {
+    background-color: #ff305b;
+    color: white;
+    border-radius: 10px;
+}
+
+#footer {
+    background-color: #333333;
+    height: 150px;
+}
+
+#footer p {
+    text-align: center;
+    color: white;
+}
